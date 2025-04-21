@@ -4,6 +4,7 @@ pragma solidity ^0.8.0;
 
 
 
+
 contract Token {
     // Some string type variables to identify the token.
     string public name = "My NekstPei Token";
@@ -12,7 +13,7 @@ contract Token {
     // The fixed amount of tokens, stored in an unsigned integer type variable.
     uint256 public totalSupply = 1000000;
 
-    // An address type variable is used to store ethereum accounts.
+    
     address public owner;
 
     // A mapping is a key/value map. Here we store each account's balance.
